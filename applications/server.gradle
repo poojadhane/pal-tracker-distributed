@@ -15,7 +15,9 @@ dependencies {
     compile "com.zaxxer:HikariCP:$hikariVersion"
     compile "mysql:mysql-connector-java:$mysqlVersion"
     compile "ch.qos.logback:logback-classic:$logbackVersion"
-    
+    // https://mvnrepository.com/artifact/org.springframework.security/spring-security-config
+    compile group: 'org.springframework.security', name: 'spring-security-config', version: '3.2.0.RELEASE'
+
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
 
